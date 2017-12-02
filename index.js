@@ -10,9 +10,8 @@ bot.on('message', (message) => {
 }); 
 */
 
-bot.registry.registerGroup('basic', 'Basic');
 bot.registry.registerGroup('random', 'Random');
-bot.registry.registerGroup('ticketing', 'Ticketing');
+bot.registry.registerGroup('staff', 'Staff');
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + "/commands");
 
